@@ -1,10 +1,11 @@
 interface Person {
+  id: number;
   name: string;
   age: number;
 }
 
 const persons: Person[] = [
-  { name: "Alice", age: 25 },
-  { name: "Bob", age: 30 },
-  { name: "Charlie", age: 35 },
+  { id: 1, name: "Alice", age: 25 },
+  { id: 2, name: "Bob", age: 30 },
+  { id: 3, name: "Charlie", age: 35 },
 ];
