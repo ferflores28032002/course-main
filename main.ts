@@ -10,6 +10,6 @@ const persons: Person[] = [
   { id: 3, name: "Charlie", age: 35 },
 ];
 
-const person = persons.find((person) => person.id === 2);
+const person = persons.find((person) => person.id === 5);
 
-console.log(person);
+console.log(person, person?.name);
