@@ -9,3 +9,7 @@ const persons: Person[] = [
   { id: 2, name: "Bob", age: 30 },
   { id: 3, name: "Charlie", age: 35 },
 ];
+
+const person = persons.find((person) => person.id === 5);
+
+console.log(person, person?.name);
